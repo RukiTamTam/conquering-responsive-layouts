@@ -3,9 +3,10 @@
 :root {
     --ff-primary: "Roboto", serif;
 
-    --fs-400: 16px;
-    --fs-500: 21px;
-    --fs-600: 48px;
+    --fs-400: 1rem;
+    --fs-500: 1.3125rem;
+    --fs-600: 2.25rem;
+    --fs-700: 3rem;
 
     --clr-800: #23424a;
     --clr-500: #136c72;
@@ -78,4 +79,31 @@ body {
     text-transform: uppercase;
     font-weight: var(--fw-500);
     cursor: pointer;
+}
+
+.Odd {
+    color: var(--clr-300);
+}
+
+.container {
+    display: flex;
+    padding: 5rem;
+}
+
+.column + .column {
+    margin-left: 2rem;
+}
+
+.column-container {
+    text-align: center;
+}
+
+.title {
+    font-weight: var(--fw-900);
+    font-size: var(--fs-600);
+    margin-bottom: 2rem;
+}
+
+.Even__container {
+    background-color: var(--clr-800);
 }
