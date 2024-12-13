@@ -54,6 +54,7 @@ body {
     display: grid;
     gap: 0.5rem;
     margin-bottom: 3rem;
+    max-width: 750px;
 }
 
 .Header__title {
@@ -70,6 +71,7 @@ body {
 .Header__primary-action {
     padding: 0.5rem 2rem;
     border: none;
+    min-width: max-content;
     border-radius: 5rem;
     background-color: var(--clr-200);
     text-transform: uppercase;
